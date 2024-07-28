@@ -1,0 +1,105 @@
+@font-face{
+    src: url(fonts/Aller_Bd.ttf);
+    font-family: Aller_Bd;
+}
+
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+body{
+    background-image: url(1308322.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.konteineris{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+    
+.boksas{
+    font-family: Aller_Bd;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    backdrop-filter: blur(20px);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 20px black;
+    
+}
+.prisijungimas{
+    font-size: 20px;
+    display: flex;
+    position: relative;
+    bottom: 40px;
+    justify-content: center;
+    
+}
+
+.pamirsau{
+   position: relative;
+   left: 50px;
+}
+
+input{
+background-color: transparent;
+    margin: 10px 0;
+   font-size: 25px;
+   border-radius: 20px;
+   border: 2px solid white;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+input:hover{
+    background-color: rgb(181, 181, 181);
+}
+
+i{
+    color: black;
+    position: relative;
+    right: 35px;
+}
+
+button{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 320px;
+    height: 40px;
+}
+
+.registras{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: rgb(178, 178, 178);
+}
